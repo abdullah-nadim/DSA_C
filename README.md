@@ -1,0 +1,1 @@
+This repository contains the code of me learning data structure and algorithm in C.
