@@ -6,7 +6,9 @@ int main() {
     scanf("%d", &n);
     int arr[n];
     printf("Enter Array Elements:\n");
-    for (int i = 0; i < n; i++) {
+
+    for (int i = 0; i < n; i++)
+        {
         scanf("%d", &arr[i]);
     }
 
@@ -19,6 +21,7 @@ int main() {
             }
         }
     }
+
     printf("Sorted Array :\n");
     for (int i = 0; i < n; i++) {
         printf("%d\t", arr[i]);
